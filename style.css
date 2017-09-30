@@ -1,0 +1,91 @@
+.content-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 1060px;
+}
+
+.content-wrap > img {
+    height: 10em;
+    margin-top: 5em;
+    width: 100%;
+}
+
+nav {
+    margin-top: 8em;
+    font-size: large;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.cropper {
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    background-image: url(media/lucas-silva-pinheiro-santos-323448.jpg);
+    background-size: cover;
+}
+
+.cropper img {
+    height: 127em;
+    margin-top: -30em;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    color: #4e4e4e;
+}
+
+section p {
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+section p a {
+    color: inherit;
+}
+
+section ul {
+    font-size: 1.5em;
+}
+
+section h1 {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.emo-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.emo-info img {
+    width: 2em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 1em;
+}

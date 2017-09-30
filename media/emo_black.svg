@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="14.065 21.477 272.961 272.961"
+     width="272.961" height="272.961">
+    <g id="Group">
+        <g id="Group">
+            <g id="Group">
+                <path d=" M 150.545 290.04 C 77.646 290.04 18.462 230.856 18.462 157.957 C 18.462 85.059 77.646 25.874 150.545 25.874 C 223.443 25.874 282.628 85.059 282.628 157.957"
+                      fill="none" vector-effect="non-scaling-stroke" stroke-width="3" stroke="rgb(0,0,0)"
+                      stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+                <line x1="282.628" y1="157.957" x2="150.545" y2="157.957" vector-effect="non-scaling-stroke"
+                      stroke-width="3" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square"
+                      stroke-miterlimit="3"/>
+            </g>
+        </g>
+        <path d=" M 250.368 128.751 C 250.368 125.622 252.908 123.081 256.037 123.081 C 259.166 123.081 261.706 125.622 261.706 128.751 C 261.706 131.88 259.166 134.42 256.037 134.42 C 252.908 134.42 250.368 131.88 250.368 128.751 Z "
+              fill="rgb(0,0,0)"/>
+        <path d=" M 206.368 128.751 C 206.368 125.622 208.908 123.081 212.037 123.081 C 215.166 123.081 217.706 125.622 217.706 128.751 C 217.706 131.88 215.166 134.42 212.037 134.42 C 208.908 134.42 206.368 131.88 206.368 128.751 Z "
+              fill="rgb(0,0,0)"/>
+    </g>
+</svg>
