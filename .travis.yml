@@ -4,8 +4,8 @@ deploy:
   access_key_id: $aws_access_key_id
   secret_access_key: $aws_secret_key
   upload-dir: website
-  bucket: emotionless
-  region: eu-central-1
+  bucket: "emotionless"
+  region: "eu-central-1"
   acl: public_read
   on:
     branch: release
@@ -13,8 +13,8 @@ deploy:
   access_key_id: $aws_access_key_id
   secret_access_key: $aws_secret_key
   upload-dir: website-staging
-  bucket: emotionless
-  region: eu-central-1
+  bucket: "emotionless"
+  region: "eu-central-1"
   acl: public_read
   on:
     branch: staging
