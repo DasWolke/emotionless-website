@@ -1,0 +1,24 @@
+language: node_js
+deploy:
+- provider: s3
+  access_key_id: $aws_access_key_id
+  secret_access_key: $aws_secret_key
+  upload-dir: website
+  bucket: emotionless
+  region: eu-central-1
+  acl: public_read
+  on:
+    branch: release
+- provider: s3
+  access_key_id: $aws_access_key_id
+  secret_access_key: $aws_secret_key
+  upload-dir: website-staging
+  bucket: emotionless
+  region: eu-central-1
+  acl: public_read
+  on:
+    branch: staging
+env:
+  global:
+  - secure: P+n6w1kSoQYBvsznz/d0nG8zSXYeKYfGBw3nMczifz29qHDaog7St4UdYjnmj3RCKSrp2NljKHMBDlFus9TrLzLiE0uH7XiIR6fYtXsXmpaWvNcJGI8zEhd12vD8fxf5fTaDzHl2c6mFDIVW6x61i+BBhu3Jr/x4sn8YEpeJAZc7cnXzuMQCwDltO2A1LUnWfiusvtEN+TDef137YLz6440BpFWnD5f3y+AmLc23X0sG5ZWzNiosivO5TMo4JXLAatl+zMq68zjK37BJinPD44UlsAtaE0lu7Zp3BoJKMZpVQ1Jwc2yrBs4lI2woiqJwUeXZ37iv0YleYKAkRn15romEJ7x5u8B7syG3nVrFxOhcumE/liNeiGsIIICA6YI8L61rxEj9feHDmVRPux5nQ0F7RB1DlDdKlVsSc+yGrGom3gnpweZ9qFV/jb9sNdmpfj2Tytl0te8IXeIf8h7FF5nz1prDwyGU1D2XJFXoU7osNP8qo8Qpj+P6SkE/+REjov4slMQDy3HqDVFR42GUrwC4OkanXvrownC2heUTuEyEdQCOHnCwqKI83OWFE+X8PRgbiDq1ib+r1g4SoYCUALdFEx68uE3scuqD6qVMT4QVzAfCmXasWxWRYHXUR/d3n7GQ5YufqyO3TJUCD/0ip1xYa268r2hlH5ck4EsStAg=
+  - secure: xDwZ35DB3loxaiXEvp8NYXGl/K1qbcMhpThtPc4K86UsyiNooVFazt8v/gdbML6veBI4+XhALF3JBeTVIcjuusYx7iT+wUnFQXeJGIj/0EyA1aaPcfQwuim2yO1WhyOgwHbwuvBK62Joe4PjJQY2rluvwagUPjq5nsO+S/uRwf32YANcNTEcWJkrqUO5ZxOtI9MfWL2hT0hRR6zQHBjalhZ6KJXrhcconnCUtoOl0H9dbRPiPHceTMjXxSlHS8NA3k34ePIWr2obABNp/DTocrvJM9oAPhojyx5oui5g7Bp+H0qq4HkN+ysvLG5j2m3BY/K4Bm/cATE1YZeSsnZWh4c/jT8ZsGLrFdITKtaGFoG7nyuHP2RdtQRsrzIoomPTjMgtGgQVuZbQnUB5MBfuO2UQUWV9ZVc4yP0FycT+xGCz40pghoMsjw1ET1LiJN/yJnXbTnuIxR7cu/9kTU6UJ21upaEU43VOG7FKhKSBxhyAHQnVrLENSCH4auPyK5b0Sicaw00TVQNkJ13NY99e6NmlYElLIlNcHp7ysmP9mPUVN8U4enUN4A5SYFcskzgLWom52Nspz0O91tzszBmY62iPWXOMW0UQVmmPGhNsLTCB59RCKi0zw6QAt5oDALOKWpFB4za2RiOiZ9eQPLTm0JJRbrIDnW1DwlCKpJbamqE=
